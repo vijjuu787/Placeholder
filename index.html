@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaceHolder</title>
+</head>
+<body>
+    <section>
+    <h1>PlaceHolder Image Path generator</h1>
+    <div>
+        <label for="selectImage">Size Img   </label>
+        <select id="selectImage">
+            <option value="150x50">small(150x50)</option>
+            <option value="200x200">medium sqaure(200x200)</option>
+            <option value="350x150">medium (350x150)</option>
+            <option value="400x400">Large square(400x400)</option>
+            <option value="450x250">large(450x250)</option>
+        </select>
+    </div>
+    <div class="parent">
+        <label for="nameOnImage">Text ON Image </label>
+        <input type="text" id="nameOnImage" >
+    </div>
+
+    <div class="parent">
+        <label for="backgroundColor">backgroundColor</label>
+        <input type="color" id="backgroundColor" value="#98bc62" >
+    </div>
+
+    <div class="parent">
+        <label for="TextColor">Text color</label>
+        <input type="color" id="TextColor" value="#2c5f2d">
+    </div>
+
+    <div class="container">
+        <img src="" alt="">
+        <br>
+        <label for="urlPath"></label><textarea name="" id="urlPath" cols="20" rows="2">
+            Link will availalbe here
+        </textarea>
+    </div>
+    
+</section>
+
+<script src="index.js"></script>
+</body>
+</html>
